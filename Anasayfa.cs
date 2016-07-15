@@ -785,7 +785,7 @@ namespace oopproject
         {
             AdresleriAl();
             SmtpClient cl = new SmtpClient();
-            cl.Credentials = new System.Net.NetworkCredential("gakbal112@gmail.com", "141093ehimmmm");
+            cl.Credentials = new System.Net.NetworkCredential("gakbal112@gmail.com", "*******");
             cl.Port = 587;
             cl.Host = "smtp.gmail.com";
             cl.EnableSsl = true;
